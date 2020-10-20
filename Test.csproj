@@ -590,6 +590,7 @@
     <Content Include="Content\Kendo\kendo.silver.mobile.min.css.map" />
     <Content Include="Content\Kendo\kendo.uniform.min.css.map" />
     <Content Include="Content\Kendo\kendo.uniform.mobile.min.css.map" />
+    <Content Include="Database\DB_IACCESS.bak" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -2667,7 +2668,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Csv\upload\" />
-    <Folder Include="Database\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
