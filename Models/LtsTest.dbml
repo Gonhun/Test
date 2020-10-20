@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_IACCESS" Class="LtsTestDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=DB_IACCESS;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DB_IACCESSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TBL_M_CONTENT" Member="TBL_M_CONTENTs">
+    <Type Name="TBL_M_CONTENT">
+      <Column Name="ID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CONTENT" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
